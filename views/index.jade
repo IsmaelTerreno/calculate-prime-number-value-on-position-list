@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= pageHomeTitle
+  form(name="add-estimation", method="post")
+    div.input
+      span.label Max number to calculate prime number list.
+      input(type="text", name="baseNumber", value="1000000")
+    div.input
+      span.label Position prime number to obtain from list.
+      input(type="text", name="positionPrimeNumber", value="10001")
+    div.actions
+      input.button(type="submit", value="Calculate prime number list")
+  p.result #{result}
