@@ -16,6 +16,4 @@ Calculates a prime number list with a particular max number and obtain the prime
   "Result prime number = 104743 at 10001th position from calculated list."
 
 ## Run app
-Just simple execute:
-`npm install`
-`npm start`
+Just execute `npm install` and `npm start`.
