@@ -15,5 +15,5 @@ Calculates a prime number list with a particular max number and obtain the prime
   * When press the "Calculate prime number list" button the result will be:
   "Result prime number = 104743 at 10001th position from calculated list."
 
-## Run app
+## Run the app
 Just execute `npm install` and `npm start`.
